@@ -33,10 +33,7 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'com.google.android.material:material:1.2.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
-
-
-    implementation 'com.github.tonmoyDeveloperBD:RealTimeMysql:1.0.1'
-
+    implementation project(path: ':realtime mysql')
 
 
     testImplementation 'junit:junit:4.+'
