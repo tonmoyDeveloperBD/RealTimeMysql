@@ -1,0 +1,3 @@
+include ':realtime mysql'
+include ':app'
+rootProject.name = "RealTime Mysql"
